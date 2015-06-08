@@ -392,3 +392,13 @@ body {
 .network-name {
   font-size: 12px;
 }
+
+.play-stop-button-div {
+  border: white 1px solid;
+  width: 50px;
+  margin: 10px auto 20px;
+  height: 50px;
+  padding: 15px 15px;
+  border-radius: 5px;
+  background-color: white;
+}

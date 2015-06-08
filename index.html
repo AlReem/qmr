@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Quran Malayalam Tafseer</title>
+    <title>Quran Malayalam Thafseer</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Quran</span> Malayalam Tafseer
+                    <i class="fa fa-play-circle"></i>  <span class="light">Quran</span> Malayalam Thafseer
                 </a>
             </div>
 
@@ -77,9 +77,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Quran Malayalam Tafseer</h1>
+                        <h1 class="brand-heading">Quran Malayalam Thafseer</h1>
                         <p class="intro-text">Narrated 'Uthman (رضي الله عنه):<br>The Prophet (صلى الله عليه و آله وسلم‎) said, <br><br><strong>"The best among you (Muslims) are those who learn the Qur'an and teach it."</strong><br><p class="intro-text">Bukhari Vol. 6 : No. 545</p>
-                        <div class="cc_player" data-username="zayoosuf">Loading ...</div>
+                        
+
+                        <audio id="radioAudio">
+                            <source src="http://37.187.90.196:8930/;"
+                                 type='audio/mpeg'>
+                            <div class="cc_player" data-username="zayoosuf">Loading ...</div>
+                        </audio>
+                        <div class="play-stop-button-div">
+                            <a onclick="aud_play_pause()">
+                                <i id="play-stop-button" class="fa fa-play animated"></i>
+                            </a>
+                        </div>
+
                         <a href="#schedule" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>

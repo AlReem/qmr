@@ -34,3 +34,14 @@ $('.navbar-collapse ul li a').click(function() {
 $(document).ready(function(){
     $('#cc_strinfo_summary_zayoosuf a').removeAttr('href');
 });
+
+function aud_play_pause() {
+  var radioAudio = document.getElementById("radioAudio");
+  if (radioAudio.paused) {
+    radioAudio.play();
+    $('#play-stop-button').removeClass('fa-play').addClass('fa-stop');
+  } else {
+    radioAudio.pause();
+    $('#play-stop-button').removeClass('fa-stop').addClass('fa-play');
+  }
+}
