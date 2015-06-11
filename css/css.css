@@ -454,3 +454,8 @@ body {
     cursor: pointer;
     cursor: hand;
 }
+
+.about-text p {
+    text-align: justify;    
+}
+
