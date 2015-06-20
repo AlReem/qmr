@@ -65,6 +65,15 @@ p {
     h2 {
         font-size: 30px;
     }
+
+    .ss-inputs-left {
+      text-align: left;
+    }
+
+
+    .ss-labels-right {
+      text-align: right;
+    }
 }
 
 a {
@@ -517,7 +526,15 @@ body {
     color: #EEE;
 }
 
+input#ss-submit {
+  background-color: #87896A;
+  background-image: none;
+  color: white;
+}
 
 
 
-
+.gform > div {
+  margin-bottom: 15px;
+  font-family: Lora, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
