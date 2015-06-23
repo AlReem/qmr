@@ -542,6 +542,10 @@ input#ss-submit {
   height: 70px;
 }
 
+textarea, input {
+    width: 100%;
+}
+
 @media(min-width:992px) {
     
     .ss-inputs-left {
