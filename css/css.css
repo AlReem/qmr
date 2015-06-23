@@ -546,6 +546,10 @@ textarea, input {
     width: 100%;
 }
 
+.ss-labels-right {
+    text-align: left;
+}
+
 @media(min-width:992px) {
     
     .ss-inputs-left {
