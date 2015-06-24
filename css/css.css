@@ -550,6 +550,16 @@ textarea, input {
     text-align: left;
 }
 
+a.feedback-link {
+    background-color: #8F4F44;
+    color: white;
+    padding: 5px;
+}
+
+a.feedback-link:hover {
+    background-color: black;
+}
+
 @media(min-width:992px) {
     
     .ss-inputs-left {
